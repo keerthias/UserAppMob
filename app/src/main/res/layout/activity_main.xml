@@ -1,0 +1,45 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email ID"
+            android:layout_margin="10dp"
+            android:id="@+id/eid"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:id="@+id/pwd"
+            android:inputType="textPassword"
+            android:layout_margin="10dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonstyle"
+            android:textSize="15dp"
+            android:onClick="btlogin"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonstyle"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:onClick="btregister"/>
+
+    </LinearLayout>
+</ScrollView>
